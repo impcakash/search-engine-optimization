@@ -1,0 +1,65 @@
+.topnav {
+    background-color: teal;
+    color: coral;
+    font-size: 24px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    color: black
+}
+
+#navbar div:hover {
+    color: red;
+    /* background-color: yellowgreen; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbody {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.topbody>div {
+    /* border: 1px solid red; */
+    width: 48%;
+}
+
+#topbody-left {
+    /* border: 1px solid purple; */
+    padding: 80px
+}
+
+.topbody-div {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.topbody-video {
+    /* border: 2px solid green; */
+    margin: 50px 20px;
+
+    /* display: flex;
+    flex-direction: row; */
+    /* gap: 5px; */
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+}
+
+h2 {
+    color: teal
+}
+
+p {
+    color: gray;
+}
